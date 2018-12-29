@@ -236,18 +236,24 @@ nav ul li a {
 }
 
 /*----------------------------------------------------------------------------------*/
+/*  Carousel
+/*-----------------------------------------------------------------------------------*/
+
+.carousel-caption {
+    top: 30%;
+    left: 10%; 
+}
+/*----------------------------------------------------------------------------------*/
 /*  Header
 /*-----------------------------------------------------------------------------------*/
 
-#header {
-  background: url("../images/home-bg2.jpg") repeat scroll center center / cover;
+/*#header {
+  background: url("../images/home-bg.jpg") repeat scroll center center / cover;
   height: 100vh;
   width: 100%;
-}
-
+}*/
 
 #header .header-content {
-  height: 100vh;
   text-align: left;
   width: 100%;
   display: flex;
@@ -256,7 +262,7 @@ nav ul li a {
 }
 
 .header-content h1 {
-  font-size: 40px;
+  font-size: 3vw;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -264,8 +270,8 @@ nav ul li a {
 }
 
 .header-content p {
-  font-size: 13px;
-  letter-spacing: 5px;
+  font-size: 1.1vw;
+  letter-spacing: 3px;
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
@@ -280,7 +286,7 @@ nav ul li a {
 
 .header-content .list-social li i {
   color: #fff;
-  font-size: 15px;
+  font-size: 28px;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -629,3 +635,61 @@ nav ul li a {
 .credits {
   font-size: 13px;
 }
+
+/*-----------------------------------------------------------------------------------*/
+/*  Phone Responsive
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 480px) {
+
+  #footer .socials-media ul li {
+      margin-right: 25px !important; 
+      margin-left: 25px !important;
+  }
+
+  .header-content p {
+    font-size: 10px;
+  }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  phone landscape Responsive
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 600px) {
+
+  #footer .socials-media ul li {
+      margin-right: 25px !important; ;
+      margin-left: 25px !important; ;
+  }
+
+  .header-content p {
+    font-size: 10px;
+  }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Tablet portrait Responsive
+/*-----------------------------------------------------------------------------------*/
+
+
+@media (max-width: 767px) {
+.header-content p {
+    font-size: 10px;
+  }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Tablet Landscape Responsive
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 991px) and (min-width: 768px) {
+  #footer .socials-media ul li {
+      margin-right: 25px !important; ;
+      margin-left: 25px !important; ;
+  }
+}
+
+
+
+

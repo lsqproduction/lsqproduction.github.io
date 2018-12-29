@@ -1,0 +1,26 @@
+js/.DS_Store
+.DS_Store
+*.DS_Store
+
+/*-----------------------------------------------------------------------------------*/
+/*  Phone Responsive
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 480px) {
+  #footer .socials-media ul li {
+      margin-right: 25px !important; 
+      margin-left: 25px !important;
+  }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Tablet portrait Responsive
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 600px) {
+
+  #footer .socials-media ul li {
+      margin-right: 25px !important; ;
+      margin-left: 25px !important; ;
+  }
+}
