@@ -565,6 +565,7 @@ nav ul li a {
 
 #contact #sendmessage.show, #contact #errormessage.show, #contact .show {
   display: block;
+  
 }
 
 #contact .validation {
