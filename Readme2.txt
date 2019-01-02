@@ -1,5 +1,11 @@
-3. Setup contact form
-5. write bio
-7. blog post- inspirations
-8. powerful foot note quote
-9. Images
+
+- Setup contact form
+- write bio
+- blog post-inspirations
+- Powerful foot note quote
+- Images (Resize & optimize + responsive size) 
+- Tag line: "I capture impression, life, beauty, moments, happiness, emotions, actions. 
+- Action button on top right corner (Book Now from INR10,000)
+- You’re in good company: I don't like to show off, but here are just some of the brands that I've worked for. 
+- Call to action button at the bottom of the page. Or subscribe to our newsletter (That's read by 10,000 proffesiionals about tips on Converting your instagram followers)
+- Benefits of book now
