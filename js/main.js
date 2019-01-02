@@ -154,4 +154,11 @@ $(document).ready(function() {
   // Call the functions
   magnifPopup();
 
+
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+
 });
+
+

@@ -82,6 +82,11 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
+nav .btn {
+  margin-top: -15px;
+}
+
+
 p {
   margin: 25px 0;
   padding: 0;
@@ -89,6 +94,8 @@ p {
   color: #999999;
   line-height: 28px;
 }
+
+
 
 ::-moz-selection {
   background: #b8a07e;
