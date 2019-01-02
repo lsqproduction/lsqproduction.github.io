@@ -1,5 +1,6 @@
 
 - Setup contact form
+- Remove the padding after the carousel and first section. 
 - write bio
 - blog post-inspirations
 - Powerful foot note quote
@@ -7,5 +8,7 @@
 - Tag line: "I capture impression, life, beauty, moments, happiness, emotions, actions. 
 - Action button on top right corner (Book Now from INR10,000)
 - You’re in good company: I don't like to show off, but here are just some of the brands that I've worked for. 
-- Call to action button at the bottom of the page. Or subscribe to our newsletter (That's read by 10,000 proffesiionals about tips on Converting your instagram followers)
-- Benefits of book now
+- Call to action button at the bottom of the page. 
+- Not ready yet. No worries, subscribe to our newsletter. (That's read by 10,000 professionals about tips on Converting your instagram followers)
+- Benefits of Booking now. 
+- 
