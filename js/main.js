@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Minimalist.", "Simplified.", "Optimist.", "Perfectionist.", "Humble."],
+      strings: ["Inspire.", "Turnaround.", "Add Life.", "Create Stories."],
       typeSpeed: 100,
       loop: true,
     });

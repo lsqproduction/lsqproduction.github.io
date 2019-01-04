@@ -5,10 +5,10 @@
 - blog post-inspirations
 - Powerful foot note quote
 - Images (Resize & optimize + responsive size) 
-- Tag line: "I capture impression, life, beauty, moments, happiness, emotions, actions. 
-- Action button on top right corner (Book Now from INR10,000)
+- Tag line: "Let's turnaround: impression, moments, emotions, actions, sales 
 - You’re in good company: I don't like to show off, but here are just some of the brands that I've worked for. 
 - Call to action button at the bottom of the page. 
-- Not ready yet. No worries, subscribe to our newsletter. (That's read by 10,000 professionals about tips on Converting your instagram followers)
 - Benefits of Booking now. 
-- 
+- Emphasize that you are in New Delhi, India. 
+- Add transition effect on slider
+- https://www.jqueryscript.net/demo/Ink-Ripple-Style-User-Interaction-Using-jQuery-CSS3-Ink-Drops/

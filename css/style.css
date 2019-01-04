@@ -303,6 +303,7 @@ nav ul li a {
 .header-content .list-social li {
   float: left;
   margin-right: 20px;
+  margin-top: 10px; 
 }
 
 .header-content .list-social li i {
