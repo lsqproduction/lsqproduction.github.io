@@ -56,8 +56,7 @@
           <li><a href="#header" class="smoothScroll">Home</a></li>
           <li><a href="#pricing" class="smoothScroll">Pricing</a></li>
           <li><a href="#contact" class="smoothScroll">Contact</a></li>
-          <li><button class="btn btn-sm align-top" type="button"><a href="#pricing" class="smoothScroll text-white" style="margin-top: -15px;">BOOK FREE SHOOT NOW</a></button></li>
-
+          <li><button class="btn btn-sm" type="button"><a href="#pricing" class="smoothScroll text-white" style="margin-top: -15px;">BOOK FREE SHOOT NOW</a></button></li>
         </ul>
 
       </div>
@@ -88,6 +87,7 @@
               <ul class="list-unstyled list-social">
                 <li><a href="https://www.instagram.com/lsqproduction/" target="_blank"><i class="ion-social-instagram"></i></a></li>
                 <li><a href="https://www.facebook.com/Lsqproduction" target="_blank"><i class="ion-social-facebook"></i></a></li>
+                <button class="btn btn-sm" type="button"><a href="#pricing" class="smoothScroll text-white"">BOOK FREE SHOOT NOW</a></button>
               </ul>
             </div>
           </div>
@@ -266,7 +266,7 @@
 
   <div id="pricing" class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
     <h2>PRICING</h2>
-    <p class="lead"> Try free test shoot, full refund guranteed, no questions asked ! </p>
+    <p class="lead"> Each plan includes free test shoot with guaranteed full refund ! </p>
   </div>
 
   <div class="container">
@@ -283,7 +283,23 @@
             <li class="list-group-item">Delivered 72 hours after shoot <i class="ion-ios-information-outline" data-toggle="tooltip" data-placement="top" title="All enhanced images are delivered within 72 hours after the shoot via downloadable link. Raw files are also availabe on request."></i></li>
             <li class="list-group-item">1 hour Free Test Shoot <i class="ion-ios-information-outline" data-toggle="tooltip" data-placement="top" title="Free 1 hour test shoot when you book this plan. You'll receive 3 standard enhanced images."></i></li>
           </ul>
-          <button type="button" class="btn btn-lg btn-block btn-outline-secondary">BOOK NOW</button>
+          <form action="/purchase" method="POST">
+            <!-- Note that the amount is in paise = 50 INR -->
+            <script
+                src="https://checkout.razorpay.com/v1/checkout.js"
+                data-key="rzp_test_Xh88c2C6c0Ij0T"
+                data-amount="1200000"
+                data-buttontext="BOOK NOW"
+                data-name="L Square Productions"
+                data-description="Purchase Description"
+                data-image="https://lsqproduction.com/images/logo.png"
+                data-prefill.name="Gaurav Kumar"
+                data-prefill.email="test@test.com"
+                data-theme.color="#292929"
+            ></script>
+            <input type="hidden" value="Hidden Element" name="hidden">
+          </form>
+          <!-- <button type="button" class="btn btn-lg btn-block btn-outline-secondary">BOOK NOW</button> -->
           <small>Full refund guarantee <i class="ion-ios-information-outline" data-toggle="tooltip" data-placement="top" title="Full refund if you don't like the test-shoot."></i></small>
         </div>
       </div>
@@ -300,7 +316,22 @@
             <li class="list-group-item">Delivered 48 hours after shoot <i class="ion-ios-information-outline" data-toggle="tooltip" data-placement="top" title="All enhanced images are delivered within 48 hours after the shoot via downloadable link. Raw files are also availabe on request."></i></li>
             <li class="list-group-item">2hrs Free Test Shoot <i class="ion-ios-information-outline" data-toggle="tooltip" data-placement="top" title="Free 2 hours test shoot when you book this plan. You'll receive 5 pro-enhanced images."></i></li>
           </ul>
-          <button type="button" class="btn btn-lg btn-block btn-outline-secondary">BOOK NOW</button>
+          <form action="/purchase" method="POST">
+            <script
+                src="https://checkout.razorpay.com/v1/checkout.js"
+                data-key="rzp_test_Xh88c2C6c0Ij0T"
+                data-amount="2500000"
+                data-buttontext="BOOK NOW"
+                data-name="L Square Productions"
+                data-description="Purchase Description"
+                data-image="https://lsqproduction.com/images/logo.png"
+                data-prefill.name="Gaurav Kumar"
+                data-prefill.email="test@test.com"
+                data-theme.color="#292929"
+            ></script>
+            <input type="hidden" value="Hidden Element" name="hidden">
+          </form>
+          <!-- <button type="button" class="btn btn-lg btn-block btn-outline-secondary">BOOK NOW</button> -->
           <small>Full refund guarantee <i class="ion-ios-information-outline" data-toggle="tooltip" data-placement="top" title="Full refund if you don't like the test-shoot."></i></small>
         </div>
       </div>
@@ -316,7 +347,22 @@
             <li class="list-group-item">Delivered 24 hours after shoot <i class="ion-ios-information-outline" data-toggle="tooltip" data-placement="top" title="All enhanced images are delivered within 24 hours after the shoot via downloadable link. Raw files are also availabe on request."></i></li>
             <li class="list-group-item">3hrs Free Test Shoot <i class="ion-ios-information-outline" data-toggle="tooltip" data-placement="top" title="Free 3 hours test shoot when you book this plan. You'll receive 10 pro-enhanced images. "></i></li>
           </ul>
-          <button type="button" class="btn btn-lg btn-block btn-outline-secondary">Book Now</button>
+          <form action="/purchase" method="POST">
+            <script
+                src="https://checkout.razorpay.com/v1/checkout.js"
+                data-key="rzp_test_Xh88c2C6c0Ij0T"
+                data-amount="5000000"
+                data-buttontext="BOOK NOW"
+                data-name="L Square Productions"
+                data-description="Purchase Description"
+                data-image="https://lsqproduction.com/images/logo.png"
+                data-prefill.name="Gaurav Kumar"
+                data-prefill.email="test@test.com"
+                data-theme.color="#292929"
+            ></script>
+            <input type="hidden" value="Hidden Element" name="hidden">
+          </form>
+          <!-- <button type="button" class="btn btn-lg btn-block btn-outline-secondary">BOOK NOW</button> -->
           <small>Full refund guarantee <i class="ion-ios-information-outline" data-toggle="tooltip" data-placement="top" title="Full refund if you don't like the test-shoot."></i></small>
         </div>
       </div>
@@ -341,6 +387,66 @@
 
   <!-- end section pricing -->
 
+  <!-- start testing subscription -->
+
+<!--   <button id="rzp-button">BUY NOW</button>
+      <form action="/purchase" method="POST">
+            <script
+                src="https://api.razorpay.com/v1/subscriptions"
+                data-key="rzp_test_Xh88c2C6c0Ij0T:Wcmb9cJV0D6vX5eAOQ7kwqDy"
+                data "plan_id="plan_Bfqn9ESmnSNwCf"
+                data-buttontext="BOOK NOW"
+            ></script>
+            <input type="hidden" value="Hidden Element" name="hidden">
+          </form>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+      var options = {
+        "key": "rzp_test_Xh88c2C6c0Ij0T",
+        "subscription_id": "sub_BfrzFByAE20O24",
+        "name": "L Square Productions",
+        "description": "Auth txn for sub_8seKGNhVEOwnjj",
+        "handler": function (response){
+          alert(response.razorpay_payment_id);
+        }
+      };
+      var rzp1 = new Razorpay(options);
+      document.getElementById('rzp-button').onclick = function(e){
+        rzp1.open();
+      }
+    </script>
+
+    <button id="rzp-button1">Pay</button>
+        <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+        <script>
+        var options = {
+            "key": "rzp_test_Xh88c2C6c0Ij0T",
+            "subscription_id": "sub_8hYZKdAUDOpOXz",
+            "name": "Merchant Name",
+            "description": "Purchase Description",
+            "image": "/your_logo.png",
+            "handler": function (response){
+                alert(response.razorpay_payment_id);
+            },
+            "prefill": {
+                "name": "Customer Name",
+                "email": "test@email.com"
+            },
+            "notes": {
+                "address": "Hello World"
+            },
+            "theme": {
+                "color": "#F37254"
+            }
+        };
+        var rzp1 = new Razorpay(options);
+
+        document.getElementById('rzp-button1').onclick = function(e){
+            rzp1.open();
+            e.preventDefault();
+        }
+        </script> --> 
+  <!-- end Testing Subscription -->
   <!-- start section journal -->
   <div id="journal" class="text-left paddsection">
 
@@ -446,8 +552,10 @@
               <ul class="contact-details">
                 <li><span>G9 Sheetla House</span></li>
                 <li><span>Nehru Place, New Delhi</span></li>
-                <li><span>+91 93543 90748</span></li>
+                <li><span><i class="ion-social-whatsapp-outline"></i>+91 93543 90748</span></li>
                 <li><span>lsqproductions@gmail.com</span></li>
+                50K, 62500 display, 99K
+                66500, 1L
               </ul>
 
             </div>
