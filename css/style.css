@@ -61,7 +61,7 @@ a:hover {
 }
 
 a:hover, a:focus {
-  color: #b8a07e;
+  color: #ce2d2d;
   text-decoration: underline;
 }
 
@@ -94,12 +94,12 @@ p {
 
 
 ::-moz-selection {
-  background: #b8a07e;
+  background: #ce2d2d;
   color: #fff;
 }
 
 ::selection {
-  background: #b8a07e;
+  background: #ce2d2d;
   color: #fff;
 }
 
@@ -186,7 +186,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
+  background: #ce2d2d;
 }
 
 .mb-30 {
@@ -324,7 +324,7 @@ nav ul li a {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #ce2d2d;
 }
 
 #about .div-img-bg .about-img img {
@@ -380,7 +380,7 @@ nav ul li a {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #ce2d2d;
   line-height: 44px;
 }
 
@@ -407,7 +407,7 @@ nav ul li a {
 }
 
 .services-carousel .owl-dot.active {
-  background-color: #b8a07e;
+  background-color: #ce2d2d;
 }
 
 .owl-nav {
@@ -452,7 +452,7 @@ nav ul li a {
 }
 
 #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
-  color: #b8a07e;
+  color: #ce2d2d;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -527,7 +527,7 @@ nav ul li a {
 }
 
 .journal-block .journal-info .journal-txt h4 a:hover {
-  color: #b8a07e;
+  color: #ce2d2d;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -639,7 +639,7 @@ nav ul li a {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  color: #ce2d2d;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
