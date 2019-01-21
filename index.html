@@ -506,8 +506,8 @@
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2da381f44f6941052a97432c1_80e8cb1e2e" tabindex="-1" value=""></div>
               </div>
               <div class="col-sm">
-                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary btn-lg btn-block btn-outline-secondary"></div>
-<!--                 <button class="btn btn-primary btn-lg btn-block btn-outline-secondary" type="submit">Submit</button> -->
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary btn-lg btn-block btn-outline-secondary" onclick="subscribed()"></div>
+                <span id="subscribedmessage"></span>
               </div>
             </div>
           </form>
@@ -693,6 +693,12 @@
   <!-- Main Javascript File -->
   <script src="js/main.js"></script>
 
+  <!-- Signed-up for newsletter confirmation message -->
+  <script>
+    function subscribed() {
+      document.getElementById("subscribedmessage").innerHTML = "You are now subscribed. Thank you!";
+    }
+  </script>
 
 </body>
 
